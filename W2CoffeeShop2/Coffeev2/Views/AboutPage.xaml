@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--About-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Coffeev2.Views.AboutPage">
+    <StackLayout>
+        <Image Source="cafeback.png"  HeightRequest="220"></Image>
+        <Label FontSize="50" FontAttributes="Bold" TextColor="Black" HorizontalTextAlignment="Start" Padding="10,0,0,10">Jules Cafe</Label>
+        <Label FontSize="18" TextColor="Black" Padding="20,0,0,0">4A Kent Street</Label>
+        <Label FontSize="18" TextColor="Black" Padding="20,0,0,0">Newmarket</Label>
+        <Label FontSize="18" TextColor="Black" Padding="20,0,0,0">Auckland</Label>
+        <Label FontSize="18" TextColor="Black" Padding="20,0,0,0">1023</Label>
+        <Label FontSize="18" TextColor="Black" Padding="20,10,0,0">+64 9 444 5555></Label>
+        <Label FontSize="18" TextColor="Black" Padding="20,10,0,0">info@julescafe.co.nz</Label>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <!--Clean this up at the end-->
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="facebook_icon.png" Grid.Column="0"/>
+            <Image Source="instagram_icon" Grid.Column="1"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
